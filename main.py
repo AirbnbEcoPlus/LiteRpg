@@ -1,10 +1,30 @@
 import entity
 import object
 
+
+def game_explore(player):
+    print("Vous explorez le donjon")
+
 def game_loop(player):
     while player.hp != 0:
         print("Player : " + str(player.hp) + " hp, " + str(player.level) + " level, " + str(player.gold) + " gold, " + str(len(player.inventory)) + " items")
-        print("Que voulez vous faire ?")
+        print("Voir l'inventaire ? (1)")
+        print("Explorer le donjon ? (2)")
+        response = input("Que voulez vous faire ? : ")
+        if response == "1":
+            print(player.inventory)
+            print("Utiliser un objet ? (1)")
+            print("Continuer ? (2)")
+            responseInventory = input("Votre choix : ")
+            if responseInventory == "1":
+                responseItem = input("Quel objet voulez vous utiliser ? ")
+                print("----------------------------------------------------")
+            if responseInventory == "2":
+                print("----------------------------------------------------")
+        if response == "2":
+            game_explore(player)
+            print("----------------------------------------------------")
+
 
 
 def setup():
