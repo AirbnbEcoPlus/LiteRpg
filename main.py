@@ -1,20 +1,10 @@
 import entity
 import object
 
-
-
-
-
-
-
-
-
 def game_loop(player):
     while player.hp != 0:
         print("Player : " + str(player.hp) + " hp, " + str(player.level) + " level, " + str(player.gold) + " gold, " + str(len(player.inventory)) + " items")
         print("Que voulez vous faire ?")
-
-
 
 
 def setup():
@@ -42,11 +32,6 @@ def game_over():
     print("Non pas vous derière votre ecran, mais votre heros")
     print("Donc je crois que vous avez perdu, Yep je sais, je suis perspicace")
     print("GAME OVER")
-
-
-
-
-
 
 def main():
     setup()

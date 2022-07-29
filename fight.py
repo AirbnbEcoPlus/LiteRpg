@@ -14,7 +14,4 @@ def fight(player, enemy):
         for item in player.inventory:
             if response == item:
                 item_object = player.inventory.get(item)
-
-
-
                 player.inventory.remove(item)

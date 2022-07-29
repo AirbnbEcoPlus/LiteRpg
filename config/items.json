@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "name": "heal_potion",
+      "displayName": "Potion de soin",
+      "description": "rends vos points de vie",
+      "price": 20,
+      "value": 10,
+      "target": "hp"
+    },
+    {
+      "name": "pocket_of_gold",
+      "displayName": "Sachet d'Or",
+      "description": "Gagnez des pièce d'or",
+      "price": null,
+      "value": 20,
+      "target": "gold"
+    },
+    {
+      "name": "bag_of_gold",
+      "displayName": "Sac d'Or",
+      "description": "Gagnez des pièce d'or",
+      "price": null,
+      "value": 40,
+      "target": "gold"
+    },
+    {
+      "name": "wooden_sword",
+      "displayName": "Epée en bois",
+      "description": "Une épée en bois",
+      "price": 5,
+      "value": 6,
+      "target": "atk"
+    }
+
+
+  ]
+}
