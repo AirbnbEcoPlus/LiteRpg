@@ -37,10 +37,6 @@ def setup():
 
 def annonce():
     print("Bienvenue dans LiteRPG!")
-    print("Apparament dans ce type de jeu y'a un scenario, euh donc on va dire :")
-    print("Scenario :")
-    print("Vous etes un heros qui a pour but de buter tout les monstres d'un donjon.")
-    print("Fin du scenario")
     print("Vous connaiser les rpgs, donc pas besoin de vous expliquer les mechaniques(Hp, attaque, etc)")
     print("Bref, Préparez-vous à affronter des monstres!")
     print("Beaucoup de monstres..........")
